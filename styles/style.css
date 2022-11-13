@@ -18,6 +18,21 @@ nav {
     border-color:rgb(165, 165, 165);
 }
 
+a {
+    background: transparent;
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+}
+
+a:hover {
+    background: transparent;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 nav ul  {
     background:rgb(122, 2, 133);
     list-style: none;
@@ -178,4 +193,148 @@ footer {
     text-decoration: underline;
 }
 
+
+.template-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.template-main h1 {
+    font-size: 2rem;
+    color: rgb(26, 26, 26);
+    text-align: center;
+    background: transparent;
+}
+
+.template-main p {
+    color: rgb(165, 165, 165);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin: 0px 16rem;
+    background: transparent;
+}
+
+.template-main a {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    background: transparent;
+}
+
+@media (max-width: 768px) {
+    .template-main p {
+        margin: 0px 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .template-main p {
+        margin: 0px 1rem;
+    }
+}
+
+.template-main form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .template-main form {
+        flex-direction: column;
+    }
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .left {
+        margin-bottom: 1rem;
+    }
+}
+    
+.template-main form input {
+    padding: 0.5rem;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    width: 20rem;
+    font-size: 1rem;
+    transition-duration: 500ms;
+}
+
+.template-main form input:focus {
+    outline: none;
+    border: 1px solid rgb(176, 0, 192);
+}
+
+.template-main form input::placeholder {
+    color: rgb(165, 165, 165);
+}
+
+.template-main form button {
+    padding: 0.5rem;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    width: 20rem;
+    font-size: 1rem;
+    transition-duration: 500ms;
+    background: rgb(122, 2, 133);
+    color: rgb(207, 207, 207);
+    cursor: pointer;
+}
+
+.template-main form #button:hover {
+    background: rgb(176, 0, 192) !important;
+    color: rgb(207, 207, 207) !important;
+    border: 1px solid rgb(176, 0, 192);
+    color: white;
+    cursor: pointer;
+}
+
+.template-main form button:focus {
+    outline: none;
+}
+
+.template-main form button:active {
+    transform: scale(0.98);
+}
+
+.template-main form textarea {
+    padding: 0.5rem;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    width: 20rem;
+    font-size: 1rem;
+    transition-duration: 500ms;
+    resize: none;
+}
+
+.template-main form textarea:focus {
+    outline: none;
+    border: 1px solid rgb(176, 0, 192);
+}
+
+.template-main form textarea::placeholder {
+    color: rgb(165, 165, 165);
+}
 

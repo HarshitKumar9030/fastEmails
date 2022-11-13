@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automatic - Emails</title>
+    <title>New Template</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -17,9 +17,21 @@
                 <a href="newtemplate.html"><li class="nav-item">New Template</li></a>
             </ul>
         </nav>
-        <section class="hero">
-            <h1>Automatic Emails</h1>
-            <p>Sending emails to clients through kinda auto-generated emails with pythonXJavascript Post/Get Requests, should use node but I am so stressed.</p>
+        <section class="template-main">
+            <h1>New Template</h1>
+            <form id="add" method="POST">
+                <div class="left">
+                    <label for="template-name">Template Name</label>
+                    <input type="text" name="template-name" id="template-name" placeholder="Template Name">
+                    <label for="template-subject">Template Subject</label>
+                    <input type="text" name="template-subject" id="template-subject" placeholder="Template Subject">
+                </div>
+                <div class="right">
+                    <label for="template-body">Template Body</label>
+                <textarea name="template-body" id="template-body" cols="30" rows="10" placeholder="Template Body"></textarea>
+                </div>
+                <input id="button" type="submit" value="Submit">
+            </form>
         </section>
         <section class="links">
             <h1>Go to </h1>
@@ -33,6 +45,8 @@
             <p>© 2021 - Automatic Emails</p>
             <p>Made by <a class="highlight" href="https://www.harshitkumar.tech">@harshitkumar</a></p>
         </footer>
+
     </main>
+
 </body>
 </html>
