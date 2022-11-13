@@ -23,7 +23,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Contact
 
-You can contact me at [email protected](mailto: harshit@harshit.email)
+You can contact me at [email protected](mailto:harshit@harshit.email)
 
 - instagram: @Harshit_kumarofficial
 - twitter: @OhHarshit
